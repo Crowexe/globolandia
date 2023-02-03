@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Globolandia S. A.</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/servicios.css">
+</head>
+<body>
+    <div class="contenedor">
+        <div class="barra-sup">
+            <div class="logo">
+                <a href="home.html" class="logo">
+                    <img class="logo-img" src="img/globo.png" alt="globo">
+                    <p class="logo-text">Globolandia S. A.</p>
+                </a>
+            </div>
+            <div class="barra-menu">
+                <a href="salones.html">Salones</a>
+                <a href="servicios.html">Servicios</a>
+                <a href="paquetes.html">Paquetes</a>
+            </div>
+            <div class="barra-iconos">
+                <a href="main.html"><img class="icono" src="img/logout.png" alt="usuario"></a>
+                <ul>
+                    <li class="submenu">
+                        <img src="img/carro.png" alt="carrito" class="icono" id="img-carrito">
+                        <div id="carrito">
+                            <table id="lista-carrito" class="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                        <th>Cantidad</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+
+                            <a href="#" id="vaciar-carrito" class="agregar-carrito">Vaciar Carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="centro-pagina">   
+            <h1>Servicios</h1>    
+            <div id="lista-cursos" class="tarjetas-serv">
+                <div class="tarjeta-serv">
+                    <img class="img-serv" src="img/comida.jpg" alt="comida">
+                    <h2 class="nombre">Comida</h2>
+                    <p>Cantidad: 100 personas</p>
+                    <p>Precio: $2,000</p>
+                    <input type="button" value="Agregar al carrito" class="agregar-carrito" data-id="4"></input>
+                </div>
+                <div class="tarjeta-serv">
+                    <img class="img-serv" src="img/inflable.jpg" alt="inflable">
+                    <h2 class="nombre">inflable</h2>
+                    <p>Cantidad: 1 catillo</p>
+                    <p>Precio: $1,000</p>
+                    <input type="button" value="Agregar al carrito" class="agregar-carrito" data-id="5"></input>
+                </div>
+                <div class="tarjeta-serv">
+                    <img class="img-serv" src="img/bebidas.jpg" alt="bebidas">
+                    <h2 class="nombre">Bebidas</h2>
+                    <p class="cantidad">Capacidad: <span>20 botellas</span></p>
+                    <p class="precio">Costo: <span>$1,500</span></p>
+                    <input type="button" value="Agregar al carrito" class="agregar-carrito" data-id="6"></input>
+            </div>
+        </div>
+    </div>
+    <script src="js/compras.js"></script>
+</body>
+</html>
