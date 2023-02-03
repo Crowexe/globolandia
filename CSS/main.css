@@ -230,27 +230,23 @@ td:last-child {
 
 .botones {
     margin-top: 2rem;
-    width: 50%;
+    width: 70%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .boton{
     background-color: #EEEEEE;
     border-radius: 6px;
     text-transform: uppercase;
-    display: grid;
+    display: flex;
     place-items: center;
     position: relative;
     padding: 10px;
     transition: all 0.7s;
-    cursor: pointer;
-    box-shadow: 0 8px 24px 0 #0000007a;
     margin: 2rem;
-    width: 100%;
 }
 
 .boton span {
@@ -265,7 +261,7 @@ td:last-child {
     stroke-width: 5px;
     stroke: #00ADB5;
     fill: transparent;
-    stroke-dasharray: 59 235;
+    stroke-dasharray: 65 235;
     stroke-dashoffset: -235;
     transition: all 0.9s;
 }
